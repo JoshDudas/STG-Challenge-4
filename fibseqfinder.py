@@ -1,5 +1,3 @@
-
-
 class FibValue:
 
     def getFibNumValue(self, FibNumber):

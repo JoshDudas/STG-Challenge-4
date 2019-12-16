@@ -1,4 +1,5 @@
 class NumToStringConverter:
+
     def __init__(self, provided_number):
         self.number = str(provided_number) [::-1]
         self.number_length = len(self.number)

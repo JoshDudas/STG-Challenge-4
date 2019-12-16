@@ -5,7 +5,7 @@ from NumberToString import NumToStringConverter
 class getFibNumandConvertToString(unittest.TestCase):
 
     def setUp(self):
-        self.fibNumber = FibValue().getFibNumValue(16)
+        self.fibNumber = FibValue().getFibNumValue(3)
 
     def test_convertNumber(self):
         self.NumConverter = NumToStringConverter(self.fibNumber)

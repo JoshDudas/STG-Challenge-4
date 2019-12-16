@@ -1,4 +1,4 @@
-from numtostringconverter import NumberToString
+
 
 class FibValue:
 
@@ -15,7 +15,3 @@ class FibValue:
                 secondNumber = firstNumber
         print(fibNumberValue)
         return fibNumberValue
-
-if __name__ == '__main__':
-    fibNumberFinder = FibValue()
-    fibNumber = fibNumberFinder.getFibNumValue(34)
